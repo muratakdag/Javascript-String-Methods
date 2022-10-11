@@ -9,14 +9,14 @@ const quizQuestions = [
   {
     id: 2,
     question:
-      'Hangi yöntem bir tamsayı değeri alır ve belirtilen yerde bulunan karakterden oluşan yeni bir Dize döndürür? İpucu: Bu yöntem, pozitif ve negatif tam sayılara izin verir. Negatif tamsayılar  son dize karakterinden geriye doğru sayılır.',
+      'Hangi yöntem bir tamsayı değeri alır ve belirtilen indekste bulunan karakterden oluşan yeni bir Dize döndürür? İpucu: Bu yöntem, pozitif ve negatif tam sayılara izin verir. Negatif tamsayılar  son dize karakterinden geriye doğru sayılır.',
     choices: ['at()', 'charAt()', 'indexOf()', 'match()'],
     answer: 'at()',
   },
   {
     id: 3,
     question:
-      'Hangi yöntem, (Legolar gibi) dize argümanlarını çağıran dizeyle birleştirir veya bağlar ve yeni bir dize döndürür?',
+      'Hangi yöntem, (Legolar gibi) dize argümanlarını çağırıp  birleştirir ve yeni bir dize döndürür?',
     choices: ['shift()', 'concat()', 'slice()', 'push()'],
     answer: 'concat()',
   },
@@ -51,7 +51,7 @@ const quizQuestions = [
   {
     id: 8,
     question:
-      'Bir normal ifade ile bu String nesnesi arasında bir eşleşme aramak için hangi yöntem yürütülür?',
+      'Hangi yöntem karakter dizisi içinde arama yapıp bulduğu karakterin indeks numarasını eşleşme yaparak döndürür?',
     choices: ['match()', 'replace()', 'repeat()', 'search()'],
     answer: 'search()',
   },
